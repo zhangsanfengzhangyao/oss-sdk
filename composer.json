@@ -1,0 +1,24 @@
+{
+    "name": "zhangsanfengzhangyao/oss-sdk",
+    "description": "zhangyao_oss-sdk_one",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Zhangsanfengzhangyao\\OssSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhangyao",
+            "email": "1429203974@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "qcloud/cos-sdk-v5": ">=2.0",
+        "aliyuncs/oss-sdk-php": "^2.4.0",
+        "phpunit/phpunit": "^5.0|^6.0",
+        "qiniu/php-sdk": "^7.3"
+    }
+}
